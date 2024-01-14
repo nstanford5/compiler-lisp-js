@@ -1,7 +1,7 @@
-const tokenizer = require('./tokenizer');
-const parser = require('./parser');
-const transformer = require('./transformer');
-const generateCode = require('./generateCode');
+const tokenizer = require('./helpers/tokenizer');
+const parser = require('./helpers/parser');
+const transformer = require('./helpers/transformer');
+const generateCode = require('./helpers/generateCode');
 
 module.exports = function compiler(input){
     // 1. Lexical Analysis --
